@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifelynx - Dashboard</title>
+    <link rel="stylesheet" href="user_dashboard.css">
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="header-text">
+                <h2>Lifelynx</h2>
+            </div>
+            <hr>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776</div>
+            <nav class="main-nav" id="menu">
+                <ul>
+                    <li class="nav-item ">
+                        Dashboard
+                    </li>
+                    <li class="nav-item">
+                        Appointments
+                    </li>
+                    <li class="nav-item">
+                        Progress
+                    </li>
+                    <li class="nav-item">
+                        Resources
+                    </li>
+                    <li class="nav-item">
+                        Messages
+                    </li>
+                    <li class="nav-item">
+                        Settings
+                    </li>
+                    <li class="nav-item">
+                        Log out
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <hr>
+
+        <main class="main-content">
+            <header class="header">
+                <div class="header-right">
+                    <h2 class="main-content-header">Lifelynx</h2>
+                    <div class="user-info">
+                        <h4>John Doe</h4>
+                        <p>johndoe@gmail.com</p>
+                    </div>
+                    <div class="avatar">
+                        <img src="./assets/images/5da6cdf662ba4d3bb651994180014806.jpg" alt="Emily Carter">
+                    </div>
+                </div>
+            </header>
+            <hr>
+
+            <section class="welcome">
+                <h1>Welcome back, John!</h1>
+                <p>Here's a summary of your wellness journey.</p>
+            </section>
+
+            <section class="quick-actions">
+                <h2>Quick Actions</h2>
+                <div class="actions-buttons">
+                    <button class="btn-primary">Book New Appointment</button>
+                    <button class="btn-secondary">Send a Message</button>
+                </div>
+            </section>
+
+            <div class="dashboard-grid">
+                <div class="card upcoming-appointment">
+                    <h2>Upcoming Appointment</h2>
+                    <a href="#" class="view-all">View All</a>
+                    <div class="appointment-details">
+                        <div class="details-text">
+                            <h2>Follow-up Session with Dr. Adedayo Samuel</h2>
+                            <p>Wednesday, November 12th at 3:00 PM</p>
+                        </div>
+                        <button class="btn btn-join" id="call" onclick="joinCall()">Join Call</button>
+                    </div>
+                </div>
+
+                <div class="card latest-message">
+                    <h2>Latest Message</h2>
+                    <div class="message-content">
+                        <div class="message-avatar">
+                            <img src="./assets/images/534a900d2c5d9f2daa1ebf3e00c6c792.jpg" alt="">
+                        </div>
+                        <div class="message-text">
+                            <h2>Dr. Anya Sharma</h2>
+                            <p>"Hey! Just checking in! I've added a new PDF to
+                                your resources. Let's discuss it in our next
+                                session."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card progress-snapshot">
+                    <h2>Recent Progress Snapshot</h2>
+                    <div class="progress-details">
+                        <div class="progress-circle">
+                            <span class="progress-value">75%</span>
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                <path class="circle" stroke-dasharray="75, 100"
+                                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            </svg>
+                        </div>
+                        <div class="progress-info">
+                            <h3>Weekly Activity Goal</h3>
+                            <p>You're on track to meet your weekly goal. Keep up the great work!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card newest-resource">
+                    <h2>Newest Resource</h2>
+                    <div class="resource-item">
+                        <div class="resource-details">
+                            <h2>Mindful Eating Guide.pdf</h2>
+                            <p>Shared 2 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

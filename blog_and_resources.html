@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifelynx - Blog and Resources</title>
+    <link rel="stylesheet" href="blog_and_resources.css">
+</head>
+
+<body class="hero">
+    <!-- Nav Bar -->
+    <nav class="nav-bar">
+        <div class="nav-left">
+            <p>Lifelynx</p>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776</div>
+        <div class="nav-menu" id="menu">
+            <a href="landing_page.html">Home</a>
+            <a href="user_dashboard.html">Dashboard</a>
+            <a href="blog_and_resources.html">Blog & Resources</a>
+            <a href="consultant_profiles.html">View Consultants</a>
+            <a href="about.html">About Us</a>
+            <button href="contact_and_booking.html" class="button" id="contact" onclick="bookConsult()">Get
+                Advice</button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="page-header">
+            <h2 class="page-header-text">Your Journey to Wellness Starts Here!</h2>
+            <p class="page-header-subtext">Explore articles, tips, and resources curated
+                by our health experts.</p>
+        </div>
+        <input type="text" placeholder="Search for articles by keywords" class="search-input">
+        <!-- Nav Buttons for Sections -->
+        <div class="sections-button">
+            <button>All</button>
+            <button>Nutrition</button>
+            <button>Mental Wellness</button>
+            <button>Fitness</button>
+            <button>Healthy Recipes</button>
+            <button>Mindfulness</button>
+        </div>
+
+        <!-- Main Body Content -->
+        <div class="main-body">
+            <div class="page-body-content">
+                <div class="pbc-content">
+                    <img src="./assets/images/529e4cde06505a0105c4f64a864ed08a.jpg" alt="">
+                    <h6 onclick="toPdf()">NUTRITION</h6>
+                    <p class="pbc-content-header">A Guide to Mindful Eating</p>
+                    <p class="pbc-content-description">Learn how to pay attention to your food and <br>
+                        enjoy your meals more.</p>
+                    <p class="pbc-content-subtext">7 min read</p>
+
+                </div>
+                <div class="pbc-content">
+                    <img src="./assets/images/458b7b196f56991370f5ad960e9bbe40.jpg" alt="">
+                    <h6>MENTAL AWARENESS</h6>
+                    <p class="pbc-content-header">5 Ways to Boost Your Energy</p>
+                    <p class="pbc-content-description">Discover natural methods to increase your <br>
+                        vitality throughput the day.</p>
+                    <p class="pbc-content-subtext">5 min read</p>
+
+                </div>
+                <div class="pbc-content">
+                    <img src="./assets/images/07bfdf05b542c08766ffba5d2a2015ec.jpg" alt="">
+                    <h6>FITNESS</h6>
+                    <p class="pbc-content-header">Beginners' Workout for a Stronger Core</p>
+                    <p class="pbc-content-description">Start your fitness journer with these <br>
+                        effective and easy-to-follow exercises.</p>
+                    <p class="pbc-content-subtext">8 min read</p>
+
+                </div>
+            </div>
+            <div class="page-body-content-two">
+                <div class="pbc-content">
+                    <img src="./assets/images/e7d25588f392e85bca627519c6da1838.jpg" alt="">
+                    <h6>MENTAL WELLNESS</h6>
+                    <p class="pbc-content-header">The Benefits of a Good Night's Sleep</p>
+                    <p class="pbc-content-description">Explore how quality sleep can transform <br>
+                        your physical and mental health.</p>
+                    <p class="pbc-content-subtext">6 min read</p>
+
+                </div>
+                <div class="pbc-content">
+                    <img src="./assets/images/de09dab1c11dd36b6b0c0852a85b7843.jpg" alt="">
+                    <h6>HEALTHY RECIPES</h6>
+                    <p class="pbc-content-header">Quick and Healthy Breakfast Ideas</p>
+                    <p class="pbc-content-description">Fuel your morning with these nutritious and <br>
+                        delicious meal options.</p>
+                    <p class="pbc-content-subtext">5 min read</p>
+
+                </div>
+                <div class="pbc-content">
+                    <img src="./assets/images/44b40aa9f78258b9cad1367d88be5428.jpg" alt="">
+                    <h6>MINDFULNESS</h6>
+                    <p class="pbc-content-header">Understanding and Managing Stress</p>
+                    <p class="pbc-content-description">Practical tips for identifying stress triggers <br>
+                        and finding calm in your life.</p>
+                    <p class="pbc-content-subtext">10 min read</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h4>Lifelynx</h4>
+        </div>
+        <div>
+            <p>&copy; 2025 Lifelynx Inc. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
