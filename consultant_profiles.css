@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.hero {
+    background-color: rgb(242, 237, 237);
+}
+
+
+
+nav {
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 18px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.nav-left {
+    color: black;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav-menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: medium;
+    padding: 15px;
+}
+
+.nav-menu a:hover {
+    color: #0d7239;
+}
+
+.login {
+    color: white;
+    background-color: #0d7239;
+    padding: 5px 12px;
+    border-radius: 8px;
+    border: 1px solid #0d7239;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.page-header {
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.page-header-text {
+    color: #032411;
+    margin-bottom: 5px;
+}
+
+.page-header-subtext {
+    color: black;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 12px;
+
+}
+
+.sections-button {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.sections-button button {
+    background-color: white;
+    color: rgb(57, 56, 56);
+    font-weight: 300;
+    text-align: right;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    gap: 20px;
+    padding: 5px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.sections-button button:hover {
+    background-color: #05ff72;
+    color: black;
+}
+
+.consultant-profile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.consultant-profile-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 120px;
+    width: 100%;
+}
+
+.consultant-info {
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 40px 30px;
+    flex: 1;
+    gap: 213px;
+    margin-bottom: 10px;
+}
+
+.consultant-info img {
+    border-radius: 125px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.consultant-name {
+    color: #0d7239;
+    font-size: small;
+    margin-bottom: 4px;
+}
+
+.consultant-expertise {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
+
+.expertise {
+    padding: 4px;
+    background-color: #7ac69b;
+    gap: 2px;
+    margin: 3px;
+    border-radius: 16px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.expertise-description {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.profile-button {
+    color: white;
+    background-color: #032411;
+    padding: 6px 16px;
+    width: 100%;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    color: #032411;
+    background-color: #fff;
+    border: 1px solid #032411;
+}
+
+.consultant-profile-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 120px;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        width: 100%
+    }
+
+    .page-header-text {
+        font-size: 18px;
+    }
+
+    .menu-icon {
+        display: flex;
+        font-size: 18px;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+    }
+
+    .nav-menu {
+        display: none;
+        background-color: transparent;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        padding: 2px;
+        text-align: center;
+    }
+
+    .nav-menu a {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 2px;
+        margin: 3px;
+        font-size: 3px;
+        font-weight: 100;
+    }
+
+    .nav-menu a:hover {
+        color: white;
+        background-color: black;
+    }
+
+    .nav-menu button{
+        font-size: 3px;
+        padding: 2px 5px;
+        font-weight: 100;
+
+    }
+    main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sections-button button {
+        flex-wrap: wrap;
+        font-size: 8px;
+    }
+
+    .sections-button button:hover {
+        color: #032411;
+        background-color: white;
+    }
+
+    .consultant-profile-one {
+        display: block;
+    }
+
+    .consultant-profile-two {
+        display: block;
+    }
+
+    .expertise{
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-button {
+        font-size: 10px;
+    }
+
+    .profile-button:hover {
+        color: #032411;
+        background-color: #fff;
+        border: 1px solid #032411;
+    }
+}
