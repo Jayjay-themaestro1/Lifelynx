@@ -226,11 +226,19 @@ main {
 
     .nav-menu {
         display: none;
+<<<<<<< HEAD
         background-color: transparent;
         position: absolute;
         top: 50px;
         right: 0;
         padding: 2px;
+=======
+        background-color: white;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        padding: 8px;
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         text-align: center;
     }
 
@@ -238,10 +246,14 @@ main {
         display: block;
         color: black;
         text-decoration: none;
+<<<<<<< HEAD
         padding: 2px;
         margin: 3px;
         font-size: 3px;
         font-weight: 100;
+=======
+        padding: 10px;
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .nav-menu a:hover {
@@ -249,6 +261,7 @@ main {
         background-color: black;
     }
 
+<<<<<<< HEAD
     .nav-menu button{
         font-size: 3px;
         padding: 2px 5px;
@@ -260,6 +273,8 @@ main {
         padding-right: 20px;
     }
 
+=======
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     .sections-button button {
         flex-wrap: wrap;
         font-size: 8px;
@@ -278,11 +293,14 @@ main {
         display: block;
     }
 
+<<<<<<< HEAD
     .expertise{
         align-items: center;
         text-align: center;
     }
 
+=======
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     .profile-button {
         font-size: 10px;
     }

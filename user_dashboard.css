@@ -17,6 +17,10 @@ body {
 /* --- Sidebar --- */
 .sidebar {
     width: 250px;
+<<<<<<< HEAD
+=======
+    /* background-color: rgb(100, 242, 119); */
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     padding: 20px 0;
     display: flex;
     flex-direction: column;
@@ -50,6 +54,7 @@ body {
 
 }
 
+<<<<<<< HEAD
 .main-nav ul a {
     text-decoration: none;
     color: black;
@@ -60,6 +65,8 @@ body {
 
 }
 
+=======
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
 .nav-item {
     display: flex;
     align-items: center;
@@ -87,7 +94,11 @@ body {
 .main-content-header {
     display: none;
     color: #0d7239;
+<<<<<<< HEAD
     margin-right: 76px;
+=======
+    margin-right: 760px;
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
 }
 
 .header {
@@ -384,22 +395,32 @@ body {
 }
 
 @media screen and (max-width:768px) {
+<<<<<<< HEAD
     .header-text {
         display: none;
     }
 
     .main-content-header {
+=======
+    .header-text{
+        display: none;
+    }
+    .main-content-header{
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         display: flex;
         margin-right: 100px;
     }
 
     .sidebar {
         display: flex;
+<<<<<<< HEAD
         background-color: transparent;
         position: absolute;
         top: 10px;
         left: 0;
         padding: 2px;
+=======
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .menu-icon {
@@ -413,6 +434,7 @@ body {
 
     .main-nav {
         display: none;
+<<<<<<< HEAD
         background-color: transparent;
         position: absolute;
         top: 30px;
@@ -461,6 +483,28 @@ body {
     .btn-secondary:hover {
         background-color: white;
         color: #0d7239;
+=======
+        background-color: white;
+        border: 1px solid #0d7239;
+        border-radius: 0 12px 12px 0;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .main-nav .nav-item {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 3px;
+    }
+
+    .main-nav .nav-item:hover {
+        color: white;
+        background-color: #0d7239;
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .dashboard-grid {
@@ -471,7 +515,11 @@ body {
         margin-bottom: 20px;
     }
 
+<<<<<<< HEAD
     .actions-buttons button {
+=======
+    .actions-buttons button{
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         margin-bottom: 12px;
     }
 
@@ -479,11 +527,16 @@ body {
         position: absolute;
         top: 50%;
         left: 50%;
+<<<<<<< HEAD
         transform: translate(-50%, -165%);
+=======
+        transform: translate(-70%, -210%);
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         font-size: 16px;
         font-weight: 600;
         color: #0d7239;
     }
+<<<<<<< HEAD
 
     .btn-join {
         padding: 4px 9px;
@@ -499,4 +552,7 @@ body {
         background-color: #0d7239;
         color: white;
     }
+=======
+    
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
 }

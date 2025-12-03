@@ -52,7 +52,11 @@ body {
     color: white;
     border: none;
     padding: 10px;
+<<<<<<< HEAD
     border-radius: 5px;
+=======
+    border-radius: 8px;
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     cursor: pointer;
 }
 
@@ -259,6 +263,7 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+<<<<<<< HEAD
     .main-content {
         display: block;
     }
@@ -271,6 +276,15 @@ footer {
         font-size: small;
     }
 
+=======
+    .main-content{
+        display: block;
+    }
+
+    .header h1{
+        font-size: medium;
+    }
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     .menu-icon {
         display: flex;
         font-size: 18px;
@@ -282,11 +296,19 @@ footer {
 
     .nav-menu {
         display: none;
+<<<<<<< HEAD
         background-color: transparent;
         position: absolute;
         top: 50px;
         right: 0;
         padding: 2px;
+=======
+        background-color: white;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        padding: 8px;
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         text-align: center;
     }
 
@@ -294,14 +316,19 @@ footer {
         display: block;
         color: black;
         text-decoration: none;
+<<<<<<< HEAD
         padding: 2px;
         margin: 3px;
         font-size: 3px;
         font-weight: 100;
+=======
+        padding: 10px;
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .nav-menu a:hover {
         color: white;
+<<<<<<< HEAD
         background-color: #0d7239;
     }
 
@@ -330,6 +357,16 @@ footer {
     }
 
     .booking-section h2 {
+=======
+        background-color: black;
+    }
+
+    .contact-section h2{
+        font-size: medium;
+    }
+
+    .booking-section h2{
+>>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         font-size: medium;
     }
 }
