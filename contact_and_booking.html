@@ -16,11 +16,7 @@
         </div>
         <div class="menu-icon" onclick="toggleMenu()">&#9776</div>
         <div class="nav-menu" id="menu">
-<<<<<<< HEAD
             <a href="index.html">Home</a>
-=======
-            <a href="landing_page.html">Home</a>
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
             <a href="services.html">Services</a>
             <a href="about.html">About</a>
             <a href="contact_and_booking.html" class="active">Contact</a>
@@ -31,7 +27,7 @@
     <!-- Header -->
     <header class="header">
         <h1>Schedule Your Consultation</h1>
-        <p>Your path to wellness</p>
+        <p>Your first step on your path to wellness!</p>
     </header>
 
     <!-- Main Content -->
@@ -46,23 +42,23 @@
 
             <div class="contact-card">
                 <!-- <div class="icon">📧</div> -->
-                <div>
+                <div class="contact-card-details">
                     <p><strong>hello@lifelynx.com</strong></p>
                     <a href="#">Email Us</a>
                 </div>
             </div>
 
             <div class="contact-card">
-                <!-- <div class="icon">📞</div> -->
-                <div>
+                <!-- <div class="icon"></div> -->
+                <div class="contact-card-details">
                     <p><strong>+234 801 234 5678</strong></p>
-                    <a href="#">Call Us</a>
+                    <a href="">Call Us</a>
                 </div>
             </div>
 
             <div class="contact-card">
                 <!-- <div class="icon">⏰</div> -->
-                <div>
+                <div class="contact-card-details">
                     <p><strong>Mon - Fri, 9am - 5pm</strong></p>
                     <a href="#">Office Hours</a>
                 </div>
@@ -72,16 +68,19 @@
         <!-- Booking Form -->
         <section class="booking-section">
             <h2>Book Your Appointment</h2>
-            <p>1. Select a service.</p>
-            <p>2. Choose a date and time.</p>
+            <div class="booking-steps">
+                <p>1. Select a service.</p>
+                <p>2. Choose a date and time.</p>
+            </div>
 
-            <label for="service">Select a Service</label>
-            <select id="service">
-                <option>Initial Consultation (60 min)</option>
-                <option>Follow-Up Consultation (30 min)</option>
-                <option>Wellness Coaching (45 min)</option>
-            </select>
-
+            <div class="choose-service-section">
+                <label for="service">Select a Service</label>
+                <select id="service">
+                    <option>Initial Consultation (60 min)</option>
+                    <option>Follow-Up Consultation (30 min)</option>
+                    <option>Wellness Coaching (45 min)</option>
+                </select>
+            </div>
             <label for="date">Select a Date</label>
             <div class="calendar">
                 <div class="calendar-header">
@@ -119,21 +118,35 @@
                     <div>18</div>
                     <div>19</div>
                     <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div>29</div>
+                    <div>30</div>
+                    <div>31</div>
+                    <div>1</div>
+                    <div>2</div>
                 </div>
             </div>
 
-            <label>Select a Time</label>
-            <div class="time-grid">
-                <button>9:00 AM</button>
-                <button>10:00 AM</button>
-                <button>11:00 AM</button>
-                <button>12:00 PM</button>
-                <button>1:00 PM</button>
-                <button>2:00 PM</button>
-                <button>3:00 PM</button>
-                <button>4:00 PM</button>
-                <button>5:00 PM</button>
-
+            <div class="time">
+                <label>Select a Time</label>
+                <div class="time-grid">
+                    <button>9:00 AM</button>
+                    <button>10:00 AM</button>
+                    <button>11:00 AM</button>
+                    <button>12:00 PM</button>
+                    <button>1:00 PM</button>
+                    <button>2:00 PM</button>
+                    <button>3:00 PM</button>
+                    <button>4:00 PM</button>
+                    <button>5:00 PM</button>
+                </div>
             </div>
 
             <button class="confirm-btn">Confirm Booking</button>

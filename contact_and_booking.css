@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 35px;
+    padding: 10px 25px;
     background-color: #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
@@ -48,28 +48,27 @@ body {
 }
 
 .book-btn {
-    background-color: #0d7239;
-    color: white;
-    border: none;
-    padding: 10px;
-<<<<<<< HEAD
+    background-color: #fff;
+    color: #0d7239;
+    border: 1px solid #0d7239;
+    padding: 8px;
     border-radius: 5px;
-=======
-    border-radius: 8px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     cursor: pointer;
+    font-weight: 600;
 }
 
 .book-btn:hover {
-    color: #0d7239;
-    background-color: #fff;
+    color: #fff;
+    background-color: #0d7239;
     border: 1px solid #0d7239;
 }
 
 /* Header */
 .header {
     text-align: center;
-    margin: 28px 18px;
+    /* margin: 28px 18px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .header h1 {
@@ -106,7 +105,7 @@ body {
 
 .contact-section-subtext {
     color: rgb(57, 56, 56);
-    margin-bottom: 12px;
+    margin-bottom: 40px;
 }
 
 .contact-card {
@@ -116,18 +115,20 @@ body {
     background-color: #fff;
     padding: 14px 24px;
     border-radius: 8px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     border: 1px solid #fff;
 }
 
-/* .contact-card .icon {
-    font-size: 1.5rem;
-} */
+.contact-card-details {
+    display: flex;
+    flex-direction: column;
+}
 
-.contact-card a {
+.contact-card-details a {
     color: #0d7239;
     font-size: 14px;
     text-decoration: none;
+    margin-top: 15px;
 }
 
 /* Booking Section */
@@ -137,17 +138,26 @@ body {
     background-color: #fff;
     padding: 18px 24px;
     border-radius: 12px;
-    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); */
 }
 
 .booking-section h2 {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     color: black;
 }
 
-.booking-section p {
+.boooking-steps {
+    margin-bottom: 25px;
+}
+
+.booking-steps p {
     color: rgb(57, 56, 56);
-    margin-bottom: 6px;
+    margin-bottom: 5px;
+}
+
+.choose-service-section {
+    flex-direction: column;
+    margin-bottom: 25px;
+    padding: 10px;
 }
 
 label {
@@ -199,6 +209,12 @@ select {
 }
 
 /* Time buttons */
+.time {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
 .time-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -263,7 +279,6 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-<<<<<<< HEAD
     .main-content {
         display: block;
     }
@@ -276,15 +291,6 @@ footer {
         font-size: small;
     }
 
-=======
-    .main-content{
-        display: block;
-    }
-
-    .header h1{
-        font-size: medium;
-    }
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     .menu-icon {
         display: flex;
         font-size: 18px;
@@ -296,19 +302,11 @@ footer {
 
     .nav-menu {
         display: none;
-<<<<<<< HEAD
         background-color: transparent;
         position: absolute;
         top: 50px;
         right: 0;
         padding: 2px;
-=======
-        background-color: white;
-        position: absolute;
-        top: 50px;
-        right: 0;
-        padding: 8px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         text-align: center;
     }
 
@@ -316,19 +314,14 @@ footer {
         display: block;
         color: black;
         text-decoration: none;
-<<<<<<< HEAD
         padding: 2px;
         margin: 3px;
         font-size: 3px;
         font-weight: 100;
-=======
-        padding: 10px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .nav-menu a:hover {
         color: white;
-<<<<<<< HEAD
         background-color: #0d7239;
     }
 
@@ -357,16 +350,6 @@ footer {
     }
 
     .booking-section h2 {
-=======
-        background-color: black;
-    }
-
-    .contact-section h2{
-        font-size: medium;
-    }
-
-    .booking-section h2{
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         font-size: medium;
     }
 }

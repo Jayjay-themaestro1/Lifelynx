@@ -15,15 +15,17 @@ body {
     align-items: center;
 }
 
-.login-form {
+.signin-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px 50px;
     border-radius: 10px;
+    border: 1px solid blue;
     width: 100%;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     font-size: small;
+    margin: 20px;
 }
 
 .name-placeholder {
@@ -51,7 +53,7 @@ body {
     height: auto;
 }
 
-.login {
+.signin {
     color: white;
     background-color: #0d7239;
     border: 1px solid #0d7239;

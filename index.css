@@ -36,11 +36,7 @@ nav {
     font-size: large;
 }
 
-<<<<<<< HEAD
 .menu-icon {
-=======
-.menu-icon{
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     display: none;
 }
 
@@ -59,18 +55,18 @@ nav {
 
 .button {
     color: black;
-    background-color: #05ff72;
+    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: 600;
-    border: 1px solid #05ff72;
+    border: 1px solid #0d7239;
     cursor: pointer;
 }
 
 
 .button:hover {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #0d7239;
 }
 
 main {
@@ -79,7 +75,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 30px;
 }
 
@@ -89,8 +85,11 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    border-radius: 12px;
     font-size: 25px;
-    margin-bottom: 20px;
+    padding: 12px;
+    margin-bottom: 100px;
+    background-color: gainsboro;
 }
 
 .page-header {
@@ -104,50 +103,43 @@ main {
 
 .page-header-subtext {
     color: #0d7239;
-<<<<<<< HEAD
     font-size: 18px;
-=======
     font-size: 15px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     margin-bottom: 15px;
 }
 
 .image-container img {
-    width: 350px;
+    width: 400px;
     object-fit: cover;
-    height: 250px;
+    height: 300px;
     border-radius: 8px;
     justify-content: flex-end;
     flex: 1;
 
 }
 
-<<<<<<< HEAD
 .main-top .button {
-    color: black;
-    background-color: #05ff72;
+    color: white;
+    background-color: #0d7239;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: 600;
-    border: 1px solid #05ff72;
+    border: 1px solid #0d7239;
     cursor: pointer;
 }
 
-=======
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
 .main-body {
     flex-direction: column;
     display: flex;
     width: 100%;
     font-size: larger;
-    margin-bottom: 15px;
+    margin-bottom: 80px;
 }
 
 .page-body-text {
     font-weight: 100;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-size: medium;
-
 }
 
 .page-body-content-one {
@@ -158,6 +150,7 @@ main {
     align-items: center;
     width: 100%;
     gap: 15px;
+    margin-bottom: 50px;
 }
 
 .pbc-content {
@@ -169,34 +162,28 @@ main {
     padding: 15px 5px;
     flex: 1;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .pbc-header {
     font-weight: bold;
     color: black;
-<<<<<<< HEAD
     font-size: large;
-=======
     font-size: medium;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     margin-bottom: 3px;
 }
 
 .pbc-subtext {
     font-weight: light;
     color: #0d7239;
-<<<<<<< HEAD
     font-size: medium;
-=======
     font-size: small;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
 }
 
 .page-body-text-two {
     font-weight: 100;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-size: medium;
-
 }
 
 .page-body-content-two {
@@ -216,18 +203,15 @@ main {
     background-color: transparent;
     padding: 15px 5px;
     flex: 1;
-<<<<<<< HEAD
     border-radius: 16px;
     margin-bottom: 20px;
     border: 1px solid #0d7239;
-=======
     margin-bottom: 20px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
 }
 
 .fig-button {
-    background-color: #05ff7146;
-    color: #00ff6e;
+    background-color: #0d7239;
+    color: #fff;
     border: 1px solid transparent;
     display: flex;
     align-items: center;
@@ -239,11 +223,8 @@ main {
 .pbc-header-two {
     font-weight: bold;
     color: black;
-<<<<<<< HEAD
     font-size: large;
-=======
     font-size: medium;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     margin-bottom: 3px;
     text-align: center;
 }
@@ -251,24 +232,19 @@ main {
 .pbc-subtext-two {
     font-weight: light;
     color: #0d7239;
-<<<<<<< HEAD
     font-size: medium;
-=======
     font-size: small;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     text-align: center;
 }
 
 .body-end {
+    margin-top: 50px;
     background-color: #fff;
     color: black;
     text-align: center;
     padding: 12px;
-<<<<<<< HEAD
-    border-radius: 8px;
-=======
+    border-radius: 12px;
     border-radius: 5px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     width: 100%;
 }
 
@@ -312,11 +288,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-<<<<<<< HEAD
-    gap: 16px;
-=======
     gap: 18px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
 }
 
 .footer-links a {
@@ -341,14 +313,11 @@ main {
         font-size: 9px;
     }
 
-<<<<<<< HEAD
     .hero {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-=======
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     .nav-bar {
         flex-direction: row;
         padding: 2px 7px;
@@ -356,47 +325,37 @@ main {
         justify-content: space-between;
     }
 
-<<<<<<< HEAD
-    .nav-left p {
-=======
     .nav-left {
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         font-weight: 900;
         font-size: 18px;
     }
 
     .menu-icon {
         display: flex;
-<<<<<<< HEAD
         font-size: 12px;
         cursor: pointer;
         position: absolute;
         top: 5px;
         right: 8px;
-=======
         font-size: 18px;
         cursor: pointer;
         position: absolute;
         top: 15px;
         right: 10px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .nav-menu {
         display: none;
-<<<<<<< HEAD
         background-color: transparent;
         position: absolute;
         top: 50px;
         right: 0;
         padding: 2px;
-=======
         background-color: white;
         position: absolute;
         top: 50px;
         right: 0;
         padding: 12px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         text-align: center;
     }
 
@@ -404,28 +363,20 @@ main {
         display: block;
         color: black;
         text-decoration: none;
-<<<<<<< HEAD
         padding: 2px;
         margin: 3px;
         font-size: 3px;
         font-weight: 100;
-=======
         padding: 10px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .nav-menu a:hover {
         color: white;
-<<<<<<< HEAD
         background-color: #0d7239;
-=======
-        background-color: black;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
 
     .button {
-<<<<<<< HEAD
         font-size: 3px;
         padding: 2px 5px;
         font-weight: 100;
@@ -434,13 +385,11 @@ main {
     .main-top .button {
         font-size: 6px;
         padding: 2px 5px;
-=======
         font-size: 8px;
     }
 
     .nav-menu a {
         font-size: 7px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         font-weight: 100;
     }
 
@@ -449,13 +398,10 @@ main {
         font-size: larger;
     }
 
-<<<<<<< HEAD
     .page-header-subtext {
         font-size: 12px;
     }
 
-=======
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     .image-container img {
         display: none;
     }
@@ -484,10 +430,7 @@ main {
         flex-direction: row;
         font-size: 10px;
         justify-content: center;
-<<<<<<< HEAD
         padding: none;
-=======
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .page-body-text h4 {
@@ -498,7 +441,6 @@ main {
         font-size: 12px;
     }
 
-<<<<<<< HEAD
     .body-end {
         padding: 16px;
     }
@@ -517,7 +459,7 @@ main {
         font-weight: 400;
     }
 
-    .footer-links{
+    .footer-links {
         gap: 4px;
     }
 
@@ -528,17 +470,7 @@ main {
     .footer-section p {
         font-size: 8px;
         margin-top: 3px;
-=======
-    .footer-section {
-        justify-content: center;
-    }
 
-    .footer-links a {
-        font-size: 12px;
-    }
 
-    .footer-section p {
-        font-size: 5px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 }

@@ -9,10 +9,9 @@ body {
 }
 
 .hero {
+    background-color: rgb(242, 237, 237);
     padding-right: 100px;
     padding-left: 100px;
-    background-color: rgb(242, 237, 237);
-
 }
 
 nav {
@@ -25,10 +24,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 8px 30px;
-    background-color: transparent;
+    background-color: #fff;
     border-radius: 5px;
-    margin-bottom: 30px;
-
+    margin-bottom: 70px;
 }
 
 .nav-left {
@@ -44,7 +42,7 @@ nav {
 .nav-menu a {
     text-decoration: none;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     margin: 12px;
     cursor: pointer;
@@ -55,19 +53,19 @@ nav {
     color: #0d7239;
 }
 
-.button {
+.book-button {
     color: black;
-    background-color: #05ff72;
+    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: 600;
-    border: 1px solid #05ff72;
+    border: 1px solid #0d7239;
     cursor: pointer;
 }
 
-.button:hover {
-    color: black;
-    background-color: white;
+.book-button:hover {
+    color: white;
+    background-color: #0d7239;
 }
 
 .main {
@@ -78,6 +76,7 @@ nav {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 30px;
+
 }
 
 .page-header {
@@ -91,7 +90,7 @@ nav {
 
 .page-header-text {
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 .page-header-subtext {
@@ -113,9 +112,10 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     background-color: #fff;
     border-radius: 8px;
-    padding: 18px 5px;
+    padding: 18px 2px;
     flex: 1;
     margin-bottom: 20px;
 }
@@ -163,6 +163,23 @@ nav {
 
 }
 
+.button {
+    color: black;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #0d7239;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #0d7239;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -174,13 +191,16 @@ footer {
 .footer-links {
     flex-direction: row;
     margin-bottom: 18px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-links a {
     color: #0d7239;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 45px;
+    padding: 15px;
+    margin: 20px;
     flex: 1;
     text-decoration: none;
     cursor: pointer;
@@ -195,11 +215,11 @@ footer p {
     font-size: medium;
     color: #0d7239;
     margin-top: 30px;
+    margin-bottom: 20px;
 
 }
 
 @media screen and (max-width:768px) {
-<<<<<<< HEAD
     .hero {
         padding-left: 20px;
         padding-right: 20px;
@@ -208,10 +228,6 @@ footer p {
 
     .nav-bar {
         justify-content: space-between;
-=======
-    .nav-bar {
-        justify-content: center;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .nav-left {
@@ -229,19 +245,11 @@ footer p {
 
     .nav-menu {
         display: none;
-<<<<<<< HEAD
         background-color: transparent;
         position: absolute;
         top: 50px;
         right: 0;
         padding: 2px;
-=======
-        background-color: white;
-        position: absolute;
-        top: 50px;
-        right: 0;
-        padding: 12px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         text-align: center;
     }
 
@@ -249,14 +257,10 @@ footer p {
         display: block;
         color: black;
         text-decoration: none;
-<<<<<<< HEAD
         padding: 2px;
         margin: 3px;
         font-size: 3px;
         font-weight: 100;
-=======
-        padding: 10px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .nav-menu a:hover {
@@ -264,7 +268,6 @@ footer p {
         background-color: black;
     }
 
-<<<<<<< HEAD
     .nav-menu .button {
         font-size: 3px;
         padding: 2px 5px;
@@ -272,8 +275,6 @@ footer p {
 
     }
 
-=======
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     .page-header {
         margin-bottom: 30px;
     }
@@ -314,14 +315,13 @@ footer p {
 
     .footer-links {
         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .footer-links a {
         justify-content: center;
-<<<<<<< HEAD
         align-items: center;
-=======
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         flex: none;
         padding: 10px;
     }
@@ -329,5 +329,6 @@ footer p {
     footer p {
         font-size: 12px;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 }

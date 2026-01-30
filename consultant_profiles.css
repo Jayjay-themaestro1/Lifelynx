@@ -25,7 +25,7 @@ nav {
     justify-content: space-between;
     padding: 12px 18px;
     background-color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .nav-left {
@@ -42,8 +42,9 @@ nav {
     color: black;
     text-decoration: none;
     font-weight: 500;
-    font-size: medium;
+    font-size: 15px;
     padding: 15px;
+    margin: 10px;
 }
 
 .nav-menu a:hover {
@@ -59,6 +60,11 @@ nav {
     cursor: pointer;
 }
 
+.login:hover {
+    color: black;
+    background-color: white;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -67,14 +73,15 @@ main {
     padding-left: 100px;
     padding-right: 100px;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .page-header {
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .page-header-text {
@@ -91,7 +98,7 @@ main {
     padding: 8px;
     border-radius: 10px;
     border: 1px solid grey;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 
 }
 
@@ -99,7 +106,7 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 80px;
 }
 
 .sections-button button {
@@ -116,7 +123,7 @@ main {
 }
 
 .sections-button button:hover {
-    background-color: #05ff72;
+    background-color: #0d7239;
     color: black;
 }
 
@@ -226,19 +233,11 @@ main {
 
     .nav-menu {
         display: none;
-<<<<<<< HEAD
         background-color: transparent;
         position: absolute;
         top: 50px;
         right: 0;
         padding: 2px;
-=======
-        background-color: white;
-        position: absolute;
-        top: 50px;
-        right: 0;
-        padding: 8px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         text-align: center;
     }
 
@@ -246,14 +245,10 @@ main {
         display: block;
         color: black;
         text-decoration: none;
-<<<<<<< HEAD
         padding: 2px;
         margin: 3px;
         font-size: 3px;
         font-weight: 100;
-=======
-        padding: 10px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .nav-menu a:hover {
@@ -261,20 +256,18 @@ main {
         background-color: black;
     }
 
-<<<<<<< HEAD
-    .nav-menu button{
+    .nav-menu button {
         font-size: 3px;
         padding: 2px 5px;
         font-weight: 100;
 
     }
-    main{
+
+    main {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-=======
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     .sections-button button {
         flex-wrap: wrap;
         font-size: 8px;
@@ -293,14 +286,11 @@ main {
         display: block;
     }
 
-<<<<<<< HEAD
-    .expertise{
+    .expertise {
         align-items: center;
         text-align: center;
     }
 
-=======
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     .profile-button {
         font-size: 10px;
     }

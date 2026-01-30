@@ -23,11 +23,10 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 30px;
+    padding: 12px 0px;
     background-color: transparent;
     border-radius: 5px;
     margin-bottom: 50px;
-
 }
 
 .nav-left {
@@ -55,18 +54,18 @@ nav {
 
 .button {
     color: black;
-    background-color: #05ff72;
+    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: 600;
-    border: 1px solid #05ff72;
+    border: 1px solid #0d7239;
     cursor: pointer;
 }
 
 
 .button:hover {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #0d7239;
 }
 
 main {
@@ -102,7 +101,7 @@ main {
     border-radius: 5px;
     width: 100%;
     padding: 12px 18px;
-    margin-bottom: 18px;
+    margin-bottom: 25px;
     border: 1px solid transparent;
     background-color: #fff;
 }
@@ -111,7 +110,7 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .sections-button button {
@@ -119,7 +118,7 @@ main {
     color: rgb(57, 56, 56);
     font-weight: 300;
     text-align: right;
-    border: 1px solid #fff;
+    border: 1px solid #0d7239;
     border-radius: 5px;
     gap: 20px;
     padding: 5px;
@@ -128,8 +127,8 @@ main {
 }
 
 .sections-button button:hover {
-    background-color: #05ff72;
-    color: black;
+    background-color: #0d7239;
+    color: white;
 }
 
 .main-body {
@@ -137,13 +136,15 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-
+    align-items: center;
+    margin-top: 20px;
 }
 
 .page-body-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
     width: 100%;
     margin-bottom: 15px;
@@ -153,21 +154,27 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex: 1;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 12px;
     width: 100%;
+    /* background-color: white; */
+    border: 1px solid #0d7239;
+    border-radius: 8px;
+    margin: 0 10px;
+    margin-bottom: 25px;
 }
 
 .pbc-content img {
-    width: 280px;
-    height: 120px;
+    width: 310px;
+    height: 150px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .pbc-content h6 {
-    color: #05ff72;
+    color: #0d7239;
     font-size: 15px;
     font-weight: 100;
     margin-bottom: 4px;
@@ -227,12 +234,8 @@ footer p {
 
     .hero {
         width: 100%;
-<<<<<<< HEAD
         padding-left: 20px;
         padding-right: 20px;
-=======
-        padding: none;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .menu-icon {
@@ -246,19 +249,11 @@ footer p {
 
     .nav-menu {
         display: none;
-<<<<<<< HEAD
         background-color: transparent;
         position: absolute;
         top: 50px;
         right: 0;
         padding: 2px;
-=======
-        background-color: white;
-        position: absolute;
-        top: 50px;
-        right: 0;
-        padding: 12px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
         text-align: center;
     }
 
@@ -266,14 +261,10 @@ footer p {
         display: block;
         color: black;
         text-decoration: none;
-<<<<<<< HEAD
         padding: 2px;
         margin: 3px;
         font-size: 3px;
         font-weight: 400;
-=======
-        padding: 10px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .nav-menu a:hover {
@@ -281,7 +272,6 @@ footer p {
         background-color: black;
     }
 
-<<<<<<< HEAD
     .nav-menu .button {
         font-size: 3px;
         padding: 2px 5px;
@@ -289,8 +279,6 @@ footer p {
 
     }
 
-=======
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     .page-header {
         margin-bottom: 10px;
     }
@@ -316,7 +304,6 @@ footer p {
         margin: 3px;
     }
 
-<<<<<<< HEAD
     .main-body {
         justify-content: center;
         align-items: center;
@@ -324,27 +311,28 @@ footer p {
 
 
     .pbc-content {
-        margin-bottom: 12px;
+        margin-bottom: 20px;
         width: 100%;
-=======
-    .pbc-content {
-        margin-bottom: 12px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
     }
 
     .page-body-content {
         display: block;
+        align-items: center;
+        justify-content: center;
+
     }
 
     .page-body-content-two {
         display: block;
+        align-items: center;
+        justify-content: center;
+
     }
 
     footer {
         margin-top: 8px;
         padding: 12px 8px;
         margin-bottom: 10px;
-<<<<<<< HEAD
         gap: 80px;
         padding: 12px 90px;
     }
@@ -355,14 +343,6 @@ footer p {
 
     footer p {
         font-size: 6px;
-        text-align: justify;
-=======
-        gap: 60px;
-        padding: 12px 90px;
-    }
-
-    footer p {
-        font-size: 8px;
->>>>>>> 322bcdbd6c5247ed1d099293590d610b3dd49144
+        text-align: center;
     }
 }
